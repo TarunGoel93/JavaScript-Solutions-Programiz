@@ -1,0 +1,19 @@
+let a,b,c;
+a=parseFloat(prompt("Value of a: "));
+b=parseFloat(prompt("Value of b: "));
+c=parseFloat(prompt("Value of c: "));
+
+let r1,r2,s;
+s=Math.sqrt((b*b)-4*a*c);
+
+if(s>=0){
+    r1=((-b+s)/2*a);
+    r2=((-b-s)/2*a);
+
+console.log(`Root 1: ${r1}`);
+console.log(`Root 2: ${r2}`);
+}
+else if(s==0){
+    r1=r2=(-b)/2*a;
+    console.log(`The roots of quadratic equation are ${r1} and ${r2}`);
+}
