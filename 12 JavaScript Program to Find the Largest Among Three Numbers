@@ -1,0 +1,13 @@
+let x=parseFloat(prompt("Enter the first  number: "));
+let y=parseFloat(prompt("Enter the second number: "));
+let z=parseFloat(prompt("Enter the third number: "));
+
+if(x>y && x>z){
+    console.log(`${x} is greater than ${y} and ${z}`);
+}
+else if(y>x && y>z){
+    console.log(`${y} is greater than ${x} and ${z}`);
+}
+if(z>y && z>x){
+    console.log(`${z} is greater than ${x} and ${y}`);
+}
