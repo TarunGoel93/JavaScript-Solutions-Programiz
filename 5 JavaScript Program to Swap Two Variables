@@ -1,0 +1,21 @@
+let x=prompt("Enter the first number: ");
+let y=prompt("Enter the second number: ");
+let temp;
+
+console.log(`Before Swapping: ${x} `);
+console.log(`Before Swapping: ${y} `);
+
+temp=x;
+x=y;
+y=temp;
+temp=y;
+
+console.log(`After Swapping: ${x} `);
+console.log(`After Swapping: ${y} `);
+
+
+
+
+
+
+
