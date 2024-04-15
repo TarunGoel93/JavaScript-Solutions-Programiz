@@ -1,0 +1,3 @@
+let x=parseFloat(prompt("Enter the number: "));
+let randomGenrator=Math.floor(Math.random()*x);
+console.log(randomGenrator);
