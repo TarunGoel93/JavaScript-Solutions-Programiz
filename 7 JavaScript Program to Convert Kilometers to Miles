@@ -1,0 +1,4 @@
+//miles = kilometers * 0.621371
+let km=parseFloat(prompt("Enter the distance(km): "));
+let miles=km*0.621371;
+console.log(`The conversion of ${km} in miles is: ${miles}`);
