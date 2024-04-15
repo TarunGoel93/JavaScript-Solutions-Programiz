@@ -1,0 +1,4 @@
+
+let celcius=parseFloat(prompt(`Enter the value of temperature(C): `));
+let fahrenheit=(9/5)*celcius+32;
+console.log(`The coneversion of ${celcius} in fahrenheit is: ${fahrenheit} `);
