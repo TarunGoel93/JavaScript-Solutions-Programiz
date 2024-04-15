@@ -1,0 +1,4 @@
+let x=parseInt(prompt("Enter the first number: "));
+let y=parseInt(prompt("Enter the second number: "));
+let result=x+y;
+console.log("The addition of " +x+ " and " +y+ " is: "+result);
